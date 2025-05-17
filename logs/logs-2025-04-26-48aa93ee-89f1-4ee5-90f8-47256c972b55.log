@@ -1,0 +1,442 @@
+2025-04-26 00:00:00 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:00 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:03 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:03 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:08 [http-nio-8080-exec-5] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:08 [http-nio-8080-exec-5] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:10 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:10 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:12 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:12 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:14 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:14 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=READY, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:15 [http-nio-8080-exec-9] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:15 [http-nio-8080-exec-9] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=READY, filename=log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt],[]>
+2025-04-26 00:00:23 [http-nio-8080-exec-10] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:23 [http-nio-8080-exec-10] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt"", Content-Type:"text/plain"]>
+2025-04-26 00:00:26 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [7aa65a2f-dc42-4e47-822e-2f011bb9d603]
+2025-04-26 00:00:26 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_7aa65a2f-dc42-4e47-822e-2f011bb9d603.txt"", Content-Type:"text/plain"]>
+2025-04-26 00:04:32 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 00:04:32 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 00:04:32 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:04:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 00:04:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 00:04:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 00:04:42 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 11968 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 00:04:42 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:04:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:04:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2025-04-26 00:04:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 00:04:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:04:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 00:04:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 00:04:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 00:04:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2210 ms
+2025-04-26 00:04:44 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:04:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 00:04:44 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 00:04:44 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 00:04:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 00:04:45 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29519337
+2025-04-26 00:04:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 00:04:45 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 00:04:46 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 00:04:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:04:47 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 00:04:48 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:04:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:04:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 00:04:49 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 8.14 seconds (process running for 8.99)
+2025-04-26 00:04:54 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 00:04:54 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 00:04:54 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-04-26 00:04:54 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.createLog() вызван с аргументами: [LogCreateRequest[content=This is test log content
+2025-04-26 00:04:54 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - <== LogController.createLog() успешно выполнен. Результат: java.util.concurrent.CompletableFuture@ea2b877[Not completed]
+2025-04-26 00:05:03 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:05:03 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_91b8da60-302a-4818-85e7-d0585384006b.log],[]>
+2025-04-26 00:05:09 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:05:09 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Log is not ready yet. Current status: PROCESSING] with root cause
+2025-04-26 00:05:13 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:05:13 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_91b8da60-302a-4818-85e7-d0585384006b.log],[]>
+2025-04-26 00:05:15 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:05:15 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=READY, filename=log_91b8da60-302a-4818-85e7-d0585384006b.log],[]>
+2025-04-26 00:05:18 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:05:18 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_91b8da60-302a-4818-85e7-d0585384006b.log"", Content-Type:"text/plain"]>
+2025-04-26 00:07:37 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 00:07:37 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 00:07:37 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:07:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 00:07:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 00:09:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 00:09:15 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 14492 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 00:09:15 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:09:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:09:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2025-04-26 00:09:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 00:09:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:09:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 00:09:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 00:09:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 00:09:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2110 ms
+2025-04-26 00:09:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:09:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 00:09:18 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 00:09:18 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 00:09:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 00:09:18 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@be616f0
+2025-04-26 00:09:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 00:09:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 00:09:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 00:09:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:09:20 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 00:09:21 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:09:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:09:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 00:09:22 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 7.805 seconds (process running for 8.592)
+2025-04-26 00:09:26 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 00:09:26 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 00:09:26 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-26 00:09:27 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:09:27 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotFoundException: Log file not found with ID: 91b8da60-302a-4818-85e7-d0585384006b] with root cause
+2025-04-26 00:09:29 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:09:29 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotFoundException: Log file not found with ID: 91b8da60-302a-4818-85e7-d0585384006b] with root cause
+2025-04-26 00:09:40 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.createLog() вызван с аргументами: [LogCreateRequest[content=This is test log content
+2025-04-26 00:09:40 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - <== LogController.createLog() успешно выполнен. Результат: java.util.concurrent.CompletableFuture@7e93262f[Not completed]
+2025-04-26 00:09:49 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:09:49 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotReadyException: Log file is not ready yet. Current status: PROCESSING. Please try again later.] with root cause
+2025-04-26 00:09:51 [http-nio-8080-exec-9] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:09:51 [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotReadyException: Log file is not ready yet. Current status: PROCESSING. Please try again later.] with root cause
+2025-04-26 00:09:55 [http-nio-8080-exec-1] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:09:55 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotReadyException: Log file is not ready yet. Current status: PROCESSING. Please try again later.] with root cause
+2025-04-26 00:09:56 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:09:56 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_0e4161c9-1512-46fb-b121-c7f20701320c.log"", Content-Type:"text/plain"]>
+2025-04-26 00:10:11 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 00:10:12 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 00:10:12 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:10:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 00:10:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 00:11:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 00:11:21 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 5812 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 00:11:21 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:11:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:11:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2025-04-26 00:11:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 00:11:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:11:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 00:11:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 00:11:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 00:11:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2054 ms
+2025-04-26 00:11:23 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:11:23 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 00:11:23 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 00:11:23 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 00:11:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 00:11:24 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21540255
+2025-04-26 00:11:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 00:11:24 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 00:11:25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 00:11:25 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:11:26 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 00:11:27 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:11:27 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'logController' method 
+2025-04-26 00:11:27 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:11:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 00:11:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 00:11:27 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-26 00:11:27 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2025-04-26 00:11:27 [main] ERROR o.s.boot.SpringApplication - Application run failed
+2025-04-26 00:12:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 00:12:04 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 8668 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 00:12:04 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:12:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:12:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2025-04-26 00:12:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 00:12:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:12:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 00:12:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 00:12:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 00:12:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2101 ms
+2025-04-26 00:12:07 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:12:07 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 00:12:07 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 00:12:07 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 00:12:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 00:12:08 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e0652ab
+2025-04-26 00:12:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 00:12:08 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 00:12:09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 00:12:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:12:10 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 00:12:11 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:12:11 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'logController' method 
+2025-04-26 00:12:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:12:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 00:12:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 00:12:11 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-26 00:12:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2025-04-26 00:12:11 [main] ERROR o.s.boot.SpringApplication - Application run failed
+2025-04-26 00:13:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 00:13:14 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 6484 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 00:13:14 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:13:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:13:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2025-04-26 00:13:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 00:13:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:13:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 00:13:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 00:13:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 00:13:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2244 ms
+2025-04-26 00:13:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:13:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 00:13:17 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 00:13:17 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 00:13:17 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 00:13:18 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11bfd751
+2025-04-26 00:13:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 00:13:18 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 00:13:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 00:13:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:13:20 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 00:13:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:13:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:13:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 00:13:23 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 8.824 seconds (process running for 9.634)
+2025-04-26 00:13:29 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 00:13:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 00:13:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-26 00:13:29 [http-nio-8080-exec-1] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:13:29 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotFoundException: Log file not found with ID: 0e4161c9-1512-46fb-b121-c7f20701320c] with root cause
+2025-04-26 00:13:34 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:13:34 [http-nio-8080-exec-4] INFO  c.e.d.e.GlobalExceptionHandler - Resource not found
+2025-04-26 00:13:51 [http-nio-8080-exec-5] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:13:51 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.demo.exception.LogNotFoundException: Log file not found with ID: 0e4161c9-1512-46fb-b121-c7f20701320c] with root cause
+2025-04-26 00:14:33 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 00:14:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 00:14:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:14:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 00:14:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 00:14:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 00:14:44 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 680 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 00:14:44 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 00:14:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 00:14:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2025-04-26 00:14:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 00:14:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:14:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 00:14:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 00:14:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 00:14:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2397 ms
+2025-04-26 00:14:46 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 00:14:47 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 00:14:47 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 00:14:47 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 00:14:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 00:14:47 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60e67c06
+2025-04-26 00:14:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 00:14:48 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 00:14:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 00:14:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 00:14:50 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 00:14:51 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 00:14:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 00:14:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 00:14:52 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 9.104 seconds (process running for 9.986)
+2025-04-26 00:14:57 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 00:14:57 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 00:14:57 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 00:14:57 [http-nio-8080-exec-1] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [0e4161c9-1512-46fb-b121-c7f20701320c]
+2025-04-26 00:15:02 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:15:02 [http-nio-8080-exec-3] INFO  c.e.d.e.GlobalExceptionHandler - Resource not found
+2025-04-26 00:15:05 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.createLog() вызван с аргументами: [LogCreateRequest[content=This is test log content
+2025-04-26 00:15:05 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - <== LogController.createLog() успешно выполнен. Результат: java.util.concurrent.CompletableFuture@5cdba04d[Not completed]
+2025-04-26 00:15:14 [http-nio-8080-exec-5] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [91b8da60-302a-4818-85e7-d0585384006b]
+2025-04-26 00:15:14 [http-nio-8080-exec-5] INFO  c.e.d.e.GlobalExceptionHandler - Resource not found
+2025-04-26 00:15:20 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [23aa5675-bc80-4911-b21e-4cf68fd2f751]
+2025-04-26 00:15:20 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=PROCESSING, filename=log_23aa5675-bc80-4911-b21e-4cf68fd2f751.log],[]>
+2025-04-26 00:15:27 [http-nio-8080-exec-9] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [23aa5675-bc80-4911-b21e-4cf68fd2f751]
+2025-04-26 00:15:27 [http-nio-8080-exec-9] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_23aa5675-bc80-4911-b21e-4cf68fd2f751.log"", Content-Type:"text/plain"]>
+2025-04-26 00:15:31 [http-nio-8080-exec-10] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.getLogStatus() вызван с аргументами: [23aa5675-bc80-4911-b21e-4cf68fd2f751]
+2025-04-26 00:15:31 [http-nio-8080-exec-10] INFO  c.example.demo.logging.LoggingAspect - <== LogController.getLogStatus() успешно выполнен. Результат: <200 OK OK,LogStatusResponse[status=READY, filename=log_23aa5675-bc80-4911-b21e-4cf68fd2f751.log],[]>
+2025-04-26 00:15:34 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.createLog() вызван с аргументами: [LogCreateRequest[content=This is test log content
+2025-04-26 00:15:34 [http-nio-8080-exec-8] INFO  c.example.demo.logging.LoggingAspect - <== LogController.createLog() успешно выполнен. Результат: java.util.concurrent.CompletableFuture@23a85032[Not completed]
+2025-04-26 00:15:43 [http-nio-8080-exec-7] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [b4f1725e-b4ff-4a9c-a472-799a8d5041a4]
+2025-04-26 00:16:18 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [b4f1725e-b4ff-4a9c-a472-799a8d5041a4]
+2025-04-26 00:16:18 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_b4f1725e-b4ff-4a9c-a472-799a8d5041a4.log"", Content-Type:"text/plain"]>
+2025-04-26 00:16:21 [http-nio-8080-exec-1] INFO  c.example.demo.logging.LoggingAspect - ==> LogController.downloadLogFileAsync() вызван с аргументами: [b4f1725e-b4ff-4a9c-a472-799a8d5041a4]
+2025-04-26 00:16:21 [http-nio-8080-exec-1] INFO  c.example.demo.logging.LoggingAspect - <== LogController.downloadLogFileAsync() успешно выполнен. Результат: <200 OK OK,Byte array resource [resource loaded from byte array],[Content-Disposition:"attachment; filename="log_b4f1725e-b4ff-4a9c-a472-799a8d5041a4.log"", Content-Type:"text/plain"]>
+2025-04-26 01:01:40 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m52s533ms49µs100ns).
+2025-04-26 01:06:48 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 01:06:48 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 01:06:48 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:06:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 01:06:48 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 01:10:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 01:10:32 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 10988 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 01:10:32 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 01:10:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 01:10:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+2025-04-26 01:10:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 01:10:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2171 ms
+2025-04-26 01:10:34 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 01:10:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 01:10:34 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 01:10:34 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 01:10:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 01:10:35 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f6e92ca
+2025-04-26 01:10:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 01:10:35 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 01:14:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 01:14:16 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 1976 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 01:14:16 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 01:14:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 01:14:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 4 JPA repository interfaces.
+2025-04-26 01:14:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 01:14:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2162 ms
+2025-04-26 01:14:19 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 01:14:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 01:14:19 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 01:14:19 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 01:14:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 01:14:20 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70697478
+2025-04-26 01:14:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 01:14:20 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 01:14:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 01:14:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:14:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 01:14:29 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 11464 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 01:14:29 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 01:14:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 01:14:30 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 4 JPA repository interfaces.
+2025-04-26 01:14:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 01:14:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 01:14:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 01:14:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 01:14:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 01:14:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2487 ms
+2025-04-26 01:14:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 01:14:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 01:14:32 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 01:14:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 01:14:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 01:14:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25421809
+2025-04-26 01:14:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 01:14:33 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 01:14:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 01:14:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:14:35 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 01:14:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 01:14:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 01:14:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 01:14:38 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 9.532 seconds (process running for 10.314)
+2025-04-26 01:14:41 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 01:14:41 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 01:14:41 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 01:14:41 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:14:41 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@4a485396, com.example.demo.dto.TournamentDto@638ca264],[]>
+2025-04-26 01:14:42 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:14:42 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@3f3d5406, com.example.demo.dto.TournamentDto@3d63c225],[]>
+2025-04-26 01:14:43 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:14:43 [http-nio-8080-exec-4] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@dc8b26b, com.example.demo.dto.TournamentDto@12bbec63],[]>
+2025-04-26 01:14:44 [http-nio-8080-exec-5] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:14:44 [http-nio-8080-exec-5] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@538a5d04, com.example.demo.dto.TournamentDto@1a5387d4],[]>
+2025-04-26 01:15:11 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:15:11 [http-nio-8080-exec-6] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@157f2907, com.example.demo.dto.TournamentDto@1a3f1f6f],[]>
+2025-04-26 01:15:19 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 01:15:19 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 01:15:19 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:15:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 01:15:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 01:16:09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 01:16:09 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 15436 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 01:16:09 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 01:16:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 01:16:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2025-04-26 01:16:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 01:16:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 01:16:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 01:16:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 01:16:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 01:16:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2206 ms
+2025-04-26 01:16:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 01:16:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 01:16:11 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 01:16:12 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 01:16:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 01:16:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@114b203
+2025-04-26 01:16:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 01:16:12 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 01:16:14 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 01:16:14 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:16:14 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 01:16:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 01:16:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 01:16:16 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 8.296 seconds (process running for 9.074)
+2025-04-26 01:16:16 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 01:16:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 01:16:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:16:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 01:16:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 01:16:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 01:16:27 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 6612 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 01:16:27 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 01:16:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 01:16:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2025-04-26 01:16:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 01:16:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-26 01:16:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 01:16:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-04-26 01:16:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 01:16:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2082 ms
+2025-04-26 01:16:29 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 01:16:29 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 01:16:29 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 01:16:30 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 01:16:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 01:16:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e0652ab
+2025-04-26 01:16:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 01:16:30 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 01:16:31 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 01:16:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:16:32 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 01:16:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 01:16:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-26 01:16:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 01:16:34 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 7.689 seconds (process running for 8.495)
+2025-04-26 01:16:37 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 01:16:37 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 01:16:37 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-26 01:16:37 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:16:37 [http-nio-8080-exec-2] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@3ea22d52, com.example.demo.dto.TournamentDto@73f63340],[]>
+2025-04-26 01:16:49 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - ==> TournamentController.getAllTournaments() вызван с аргументами: []
+2025-04-26 01:16:49 [http-nio-8080-exec-3] INFO  c.example.demo.logging.LoggingAspect - <== TournamentController.getAllTournaments() успешно выполнен. Результат: <200 OK OK,[com.example.demo.dto.TournamentDto@3f3d5406, com.example.demo.dto.TournamentDto@3d63c225],[]>
+2025-04-26 01:16:57 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 01:16:57 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 01:16:57 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:16:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 01:16:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-26 01:17:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-26 01:17:01 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 23.0.2 with PID 10216 (C:\D in C\IntelliJ\IntelliJ projects\demo\target\classes started by nikit in C:\D in C\IntelliJ\IntelliJ projects\demo)
+2025-04-26 01:17:01 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-26 01:17:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26 01:17:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2025-04-26 01:17:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-26 01:17:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2178 ms
+2025-04-26 01:17:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26 01:17:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-26 01:17:03 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-26 01:17:04 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26 01:17:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-26 01:17:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@714bffd5
+2025-04-26 01:17:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-26 01:17:04 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-26 01:17:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26 01:17:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:17:06 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26 01:17:07 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26 01:17:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-26 01:17:08 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 7.992 seconds (process running for 8.822)
+2025-04-26 01:17:08 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26 01:17:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-26 01:17:08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26 01:17:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-26 01:17:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
